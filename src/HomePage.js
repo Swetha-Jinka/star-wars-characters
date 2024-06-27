@@ -165,8 +165,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
-import './HomePage.css';
-import NextLink from 'next/link';
+import './HomePage.css'; 
 
 import { 
   Stack, Heading, Text, Button, Box, IconButton, Table, Thead, Tfoot,
@@ -291,9 +290,7 @@ const HomePage = () => {
         </Button>
         <Button onClick={() => handlePagination(currentPage + 1)}>Next</Button>
 
-        <Link href="/about">
-  <a>About Page</a>
-</Link>
+       
       </Stack>
     </div>
   );

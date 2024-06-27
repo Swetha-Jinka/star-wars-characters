@@ -127,3 +127,13 @@
 .back-button:hover {
   background-color: #357abd;
 }
+
+
+/* @media (max-width: 768px) {
+    .details-container {
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+      }
+} */
