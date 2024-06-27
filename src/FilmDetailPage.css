@@ -1,0 +1,12 @@
+.film-details {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  @media (max-width: 768px) {
+    .film-details {
+      padding: 16px;
+    }
+  }
+  

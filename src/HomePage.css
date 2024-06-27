@@ -1,0 +1,100 @@
+/* .heading{
+    padding: 10px;
+    margin: 20px;
+}
+
+.List{
+    border: 2px solid;
+    padding: 10px;
+    margin: 20px;
+}
+.pagination{
+    padding: 10px;
+    margin: 20px;
+}
+.Btn{
+    padding: 30px;
+}
+.bgColor{
+    background-color:   #dadad3;
+}
+.Body{
+    padding: 10px; 
+    margin: 10px;
+}
+.Thead{
+    background-color: rgb(212 195 195);
+    color: white; 
+   padding: 40px;
+}
+.MainHeading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.Navbtn{
+    padding:20px
+}
+
+ */
+
+ .Body {
+    padding: 16px;
+  }
+  
+  .MainHeading {
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  
+  .bgColor {
+    background-color: #f9f9f9;
+    padding: 16px;
+    border-radius: 8px;
+    overflow-x: auto;
+  }
+  
+  .Thead th {
+    text-align: center;
+  }
+  
+  .Navbtn {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  @media (max-width: 768px) {
+    .Body {
+      padding: 8px;
+    }
+  
+    .MainHeading {
+      font-size: 1.5em;
+      margin-bottom: 16px;
+    }
+  
+    .bgColor {
+      padding: 8px;
+    }
+  
+    .Thead th {
+      font-size: 0.9em;
+    }
+  
+    .Navbtn {
+      flex-direction: column;
+    }
+  
+    .Navbtn button {
+      width: 100%;
+      margin-bottom: 8px;
+    }
+  
+    .Navbtn button:last-child {
+      margin-bottom: 0;
+    }
+  }
+  
+  
